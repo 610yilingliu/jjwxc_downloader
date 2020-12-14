@@ -82,10 +82,3 @@ def get_source(url, header):
 
 
 
-if __name__ == '__main__':
-    cookie = "__cfduid=d827ac22305d70a3712d3681b956f5caf1607762122; __gads=ID=fbafde2c32391030:T=1607762130:S=ALNI_MYYdBt93gH5AYoyekLYyo8KPd0yHQ; UM_distinctid=17656174925b38-09c8968744b308-4313f6b-1fa400-17656174926aa3; timeOffset_o=1108.5; CNZZDATA30075907=cnzz_eid%3D904510376-1607760153-http%253A%252F%252Fmy.jjwxc.net%252F%26ntime%3D1607916757; testcookie=yes; Hm_lvt_bc3b748c21fe5cf393d26c12b2c38d99=1607762121,1607921296; nicknameAndsign=2%257E%2529%2524%25E9%25A3%258E%25E9%2580%259D%25E6%2597%25A0%25E6%25AE%2587; token=Mzk2OTEyOTh8OGI3ZTI2MmQ5MWM0ZWQxOTFlZDg2NjBlYzY1MDMzZjV8fHx8NDMyMDB8MXx8fFFR55So5oi3fDF8dGVuY2VudHwx; JJEVER=%7B%22fenzhan%22%3A%22noyq%22%2C%22ispayuser%22%3A%2239691298-1%22%2C%22foreverreader%22%3A%2239691298%22%2C%22desid%22%3A%22Mu2xJjeIHWhlg7eJ5VbdLSNrArpgUrVu%22%2C%22sms_total%22%3A%222%22%2C%22user_signin_days%22%3A%2220201214_39691298_0%22%7D; JJSESS=%7B%22nicknameAndsign%22%3A%22undefined%7E%29%2524%22%2C%22clicktype%22%3A%22%22%2C%22sidkey%22%3A%227XRuaPxhbwWlLoOFYdfG5IDmSvCVinzt0yM%22%7D; Hm_lpvt_bc3b748c21fe5cf393d26c12b2c38d99=1607921374"
-    h = modify_headers(cookie)
-    url = "http://www.jjwxc.net/onebook.php?novelid=2423737"
-    get_urls(url, h)
-    # with open('test.txt', 'w', encoding = 'utf-8') as f:
-    #     f.write(text)
